@@ -5,7 +5,7 @@
     + Нажать `Create repository`.
 
 2. Клонировать репозиторий Git_practice-JSON на локальный компьютер
-    + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий, в Gitbash зайти в папку (в которой будет размещен репозиторий), 
+    + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий 
     + `git clone https://github.com/Ed-Yunusov/Git_practice-JSON.git`
     + в терминале перейти в папку Git_practice-JSON (`cd Git_practice-JSON`), в конце адреса расположения отображается main
 
@@ -18,7 +18,7 @@
     + `git status` - new.json отображается зеленым (изменения в файле отслеживаются)
 
 5. Закоммитить файл
-    + `git commit -m "new file"` - создает снимок текущего состояния файла с комментарием new file
+    + `git commit -m "new file"` - создает снимок текущего состояния файла с комментарием "new file"
 
 6. Отправить файл на внешний GitHub репозиторий
     + `git push`
@@ -30,7 +30,7 @@
 	{
 		"full_name":"Yunusov Eduard Alexeevich",
 		"age":33,
-		"number_of_pets": 1,
+		"number_of_pets":1,
 		"future_desired_salary":"2000$"
 	}
 	```
@@ -48,11 +48,11 @@
     + `insert`
 	```json
 	{
-		"Favorite movie": "Lord of the Rings",
-		"Favorite serial": "Friends",
-		"Favorite food": "Pizza",
-		"Favorite time of the year": "Spring and summer",
-		"Country I would like to visit": "The Kingdom of Thailand"
+		"Favorite movie":"Lord of the Rings",
+		"Favorite serial":"Friends",
+		"Favorite food":"Pizza",
+		"Favorite time of the year":"Spring and summer",
+		"Country I would like to visit":"The Kingdom of Thailand"
 	}
 	```
     + `Esc`
@@ -142,7 +142,7 @@
     + Нажать `Create repository`.
 
 2. Клонировать репозиторий Git_practice-XML на локальный компьютер
-    + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий, в Gitbash зайти в папку (в которой будет размещен репозиторий), 
+    + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий 
     + `git clone https://github.com/Ed-Yunusov/Git_practice-XML.git`
     + в терминале перейти в папку Git_practice-XML(`cd Git_practice-XML`), в конце адреса расположения отображается main
 
@@ -155,7 +155,7 @@
     + `git status` - new.xml отображается зеленым (изменения в файле отслеживаются)
 
 5. Закоммитить файл
-    + `git commit -m "new file"` - создает снимок текущего состояния файла с комментарием new file
+    + `git commit -m "new file"` - создает снимок текущего состояния файла с комментарием "new file"
 
 6. Отправить файл на внешний GitHub репозиторий
     + `git push`
@@ -241,7 +241,7 @@
 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе
     + Нажать кнопку `Commit new file`.
 
-14. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате Git_practice-XML
+14. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
     + Открыть файл bug_report.xml, нажать на кнопку `Edit this file`.
 	```xml	
 	<bug_report>
@@ -272,18 +272,18 @@
 
 
 
-#### TXT
-1. Создать внешний репозиторий c названием TXT
-    + открыть `https://github.com`. Залогиниться. Нажать кнопку New. 
-    + в поле Repository name ввести TXT, выбрать Public и Add a README file. 
+#### Git_practice-TXT
+1. Создать внешний репозиторий c названием Git_practice-TXT
+    + открыть `https://github.com`. Залогиниться. Нажать кнопку `New`. 
+    + в поле Repository name ввести Git_practice-TXT, выбрать Public и Add a README file. 
     + Нажать `Create repository`.
 
-2. Клонировать репозиторий TXT на локальный компьютер
-    + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий, в gitbash зайти в папку(в которой будет размещен репозиторий), 
-    + `git clone https://github.com/lvnnew/TXT.git`
-    + в терминале перейти в папку TXT(cd TXT), в конце адреса расположения отображается main
+2. Клонировать репозиторий Git_practice-TXT на локальный компьютер
+    + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий 
+    + `git clone https://github.com/Ed-Yunusov/Git_practice-TXT.git`
+    + в терминале перейти в папку Git_practice-TXT(`cd Git_practice-TXT`), в конце адреса расположения отображается main
 
-3. Внутри локального TXT создать файл “new.txt”
+3. Внутри локального Git_practice-TXT создать файл “new.txt”
     + `touch new.txt`
     + `git status` - new.txt отображается красным (изменения в файле не отслеживаются)
 
@@ -292,7 +292,7 @@
     + `git status` - new.txt отображается зеленым (изменения в файле отслеживаются)
 
 5. Закоммитить файл
-    + `git commit -m "add new.txt"` - создает снимок текущего состояния файла с комментарием add new.txt
+    + `git commit -m "new file"` - создает снимок текущего состояния файла с комментарием "new file"
 
 6. Отправить файл на внешний GitHub репозиторий
     + `git push`
@@ -300,38 +300,38 @@
 7. Отредактировать содержимое файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT
     + `vim new.txt` 
     + `insert`
-
-        + full_name: Vladimir Nikolaevich Leshenko
-        + age:30,
-        + pets: 1 cat Peppa
-        + desired_Salary: 400$
+        + Full name: Yunusov Eduard Alexeevich
+        + Age: 33
+        + Number of pets: 1
+        + Future desired salary: 2000$
 
     + `Esc`
     + `:wq`
 
 8. Отправить изменения на внешний репозиторий
-    + `git add new.txt ; git commit -m "modified new.txt" ; git push` - в качестве склейки используется ;
+    + `git commit -am "added info" && git push` - "&&" -вторая команда автоматически запускается после завершения первой команды
 
 9. Создать файл preferences.txt
-    + `cat > preferences.txt`
+    + `touch preferences.txt`
 
-10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT
+10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё написать в формате TXT
+    + `vim new.txt` 
+    + `insert`
+        + Favorite movie: Lord of the Rings
+        + Favorite serial: Friends
+        + Favorite food: Pizza
+        + Favorite time of the year: Spring and summer
+        + Country I would like to visit: The Kingdom of Thailand
 
-    + favorite movie : Green Mile
-	+ favorite series: Good Doctor
-	+ favorite food: Pizza
-	+ favorite season: Summer
-    + country you would like to visit: Montenegro
-
-    + `Enter`
-    + `Ctrl + D`
+    + `Esc`
+    + `:wq`
 
 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
-    + `cat > skills.txt`
-
+    + `vim new.txt` 
+    + `insert`
     + skills:
-        + software testing theory
-        + client-server architecture
+        + Software testing theory
+        + Client-server architecture
         + HTTP Server Request Methods
         + HTTP server Response codes
         + Structures of HTTP requests and responses
@@ -356,36 +356,37 @@
         + Non-relational database Redis installation, configuration and use
         + Load testing in Jmeter
         + Scrum development methodology
-        + Python. Learning the basics. Building a client-server application
 
     + `Enter`
     + `Ctrl + D`
 
 12. Отправить сразу 2 файла на внешний репозиторий
-    + `git add . ; git commit -m "add preferences.txt and skills.txt" ; git push`
+    + `git add . ; git commit -m "adding two files to the rep" ; git push`
 
 13. На веб интерфейсе создать файл bug_report.txt
-    + Войти в репозиторий TXT. Нажать кнопку `Add file`.
+    + Войти в репозиторий Git_practice-TXT. Нажать кнопку `Add file`.
     + Выбрать `Create new file`. В поле Name your file ввести bug_report.txt.
 
 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе
     + Нажать кнопку `Commit new file`.
 
 15. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
-    + Открыть файл bug_report.txt Выбрать редактирование. Ввести текст
-	     
-    + Summary:[9] button it always is disable on panel of calculator however digits 9 can enter from keyboard
-    + Descriprion: When calculator is run button always is disable on panel of calculator however digits 9 can enter from keyboard. It is unfriendly behavior for users
-    + Actual result: [9] button is disable
-    + Expected result: [9] button is enable
-    + Reproduced on: Win 7
-    + Reproducibility: always
-    + For more details see attachment: `https://yadi.sk/i/4IBhTrDF3VxXhR`
-    + Steps to reproduce:    
-            + 1: Run calc.exe
-            + 2: Click [9] button
-    + Severity: minor
-    + Priority: low
+    + Открыть файл bug_report.txt, нажать на кнопку `Edit this file`.
+    	+ ID: 1
+    	+ Title: В разделе 'Помощь' не работает ссылка
+    	+ Project: Сайт интернет-магазина HitechPlace
+    	+ STR:
+    	+ 1.Открыть главную страницу (ссылка_на_сайт)
+    	+ 2.Нажать на кнопку 'Помощь' в верхнем меню
+    	+ 3.Нажать на кнопку 'Где можно получить больше информации?'
+    	+ 4.Нажать на кнопку 'тут'
+    	+ Actual result: Возникает ошибка 'OOPS! THAT PAGE CAN'T BE FOUND'
+    	+ Expected result: Появляется страница с необходимой информацией
+    	+ Severity: Major
+    	+ Priority: High
+    	+ Status: Open
+    	+ Attachments: ссылка_на_картинку_с_багом
+    	+ Author: Эдуард Юнусов
 
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе
     + Нажать кнопку `Commit changes`.
