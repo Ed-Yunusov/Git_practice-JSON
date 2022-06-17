@@ -1,8 +1,8 @@
 #### Git_practice-JSON
 1. Создать внешний репозиторий c названием Git_practice-JSON 
-    + открыть `https://github.com`. Залогиниться. Нажать кнопку `New`. 
-    + в поле Repository name ввести Git_practice-JSON, выбрать Public и Add a README file. 
-    + Нажать `Create repository`.
+    + открыть `https://github.com`. Залогиниться. Нажать кнопку `New` 
+    + в поле Repository name ввести Git_practice-JSON, выбрать Public и Add a README file 
+    + Нажать `Create repository`
 
 2. Клонировать репозиторий Git_practice-JSON на локальный компьютер
     + Нажать `Code`, выбрать HTTPS, скопировать ссылку на репозиторий 
@@ -100,14 +100,14 @@
     + `git add . ; git commit -m "adding two files to the rep" ; git push`
 
 13. На веб интерфейсе создать файл bug_report.json
-    + Войти в репозиторий Git_practice-JSON. Нажать кнопку `Add file`.
-    + Выбрать `Create new file`. В поле Name your file ввести bug_report.json.
+    + Войти в репозиторий Git_practice-JSON. Нажать кнопку `Add file`
+    + Выбрать `Create new file`. В поле Name your file ввести bug_report.json
 
 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе
-    + Нажать кнопку `Commit new file`.
+    + Нажать кнопку `Commit new file`
 
 14. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON
-    + Открыть файл bug_report.json, нажать на кнопку `Edit this file`.
+    + Открыть файл bug_report.json, нажать на кнопку `Edit this file`
     ```json
     {
      "ID":"1",
@@ -130,7 +130,7 @@
     } 
     ```
 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе
-    + Нажать кнопку `Commit changes`.
+    + Нажать кнопку `Commit changes`
 
 16. Синхронизировать внешний и локальный репозиторий Git_practice-JSON
     + `git pull`
